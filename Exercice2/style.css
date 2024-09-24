@@ -2,3 +2,20 @@ html {
     height: 100%;
     width: 100%;
 }
+body{
+    max-width: 970px;
+    margin: auto;
+}
+header h1, header img{
+    text-align: center;
+}
+section{
+    display: flex;
+}
+article{
+    display: flex;
+    flex-direction: column;
+}
+ul, li{
+    list-style: none;
+}
